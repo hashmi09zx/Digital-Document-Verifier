@@ -1,0 +1,83 @@
+<web-app>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>UploadDocumentServlet</servlet-name>
+        <servlet-class>UploadDocumentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadDocumentServlet</servlet-name>
+        <url-pattern>/UploadDocumentServlet</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>GenerateQRServlet</servlet-name>
+        <servlet-class>GenerateQRServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>GenerateQRServlet</servlet-name>
+        <url-pattern>/GenerateQRServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownloadDocumentServlet</servlet-name>
+        <servlet-class>DownloadDocumentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownloadDocumentServlet</servlet-name>
+        <url-pattern>/DownloadDocument</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>DisplayDocumentServlet</servlet-name>
+        <servlet-class>DisplayDocumentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayDocumentServlet</servlet-name>
+        <url-pattern>/DisplayDocumentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VerifyByIdServlet</servlet-name>
+        <servlet-class>VerifyByIdServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifyByIdServlet</servlet-name>
+        <url-pattern>/VerifyByIdServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownloadDocumentServlet</servlet-name>
+        <servlet-class>DownloadDocumentServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DownloadDocumentServlet</servlet-name>
+        <url-pattern>/DownloadDocumentServlet</url-pattern>
+    </servlet-mapping>
+
+    
+</web-app>
